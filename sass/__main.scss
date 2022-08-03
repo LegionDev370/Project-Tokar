@@ -1,3 +1,8 @@
+.wrapper-header {
+  padding-top: 40px;
+  max-height: 970px;
+  background: #fffbf7;
+}
 .section-hero {
   &__flex {
     &-left-page {
@@ -42,6 +47,109 @@
           font-size: 16px;
           line-height: 16px;
           color: #cb8734;
+        }
+      }
+    }
+  }
+  &__img {
+    background-image: url(../assets/house.png);
+    min-height: 506px;
+    background-repeat: no-repeat;
+    background-position-x: 30px;
+  }
+}
+.section-services {
+  position: relative;
+  margin-top: 74px;
+  &__flex {
+    background: #ffffff;
+    box-shadow: 0px 0px 30px rgba(43, 42, 40, 0.08);
+    border-radius: 8px;
+    margin-top: 74px;
+    &-h2 {
+      font-family: "Gilroy";
+      font-style: normal;
+      font-weight: 700;
+      font-size: 36px;
+      line-height: 58px;
+      color: #2b2a28;
+    }
+    &-col {
+      &-title {
+        margin-top: 21px;
+        font-family: "Gilroy";
+        font-style: normal;
+        font-weight: 700;
+        font-size: 15px;
+        line-height: 30px;
+        & > span {
+          display: block;
+          margin-top: 7px;
+          font-weight: 300;
+          font-size: 15px;
+          line-height: 30px;
+          color: black;
+        }
+        &-extra-0 {
+          max-width: 171px;
+        }
+        &-extra-1 {
+          max-width: 220px;
+        }
+        &-extra-2 {
+          max-width: 236px;
+        }
+        &-extra-3 {
+          max-width: 261px;
+        }
+      }
+    }
+  }
+}
+.section-projects {
+  background-image: url(../assets/background-image.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position-x: 270px;
+  &__flex {
+    margin-top: 343px;
+    &-card-group {
+      max-width: 780px;
+      &-active {
+        background: #ffffff;
+        box-shadow: 0px 0px 30px rgba(43, 42, 40, 0.08);
+        border-radius: 0px 40px 0px 0px !important;
+        &-link-circle {
+          cursor: pointer;
+          width: 30px;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          border-radius: 50%;
+          height: 30px;
+          border: 1.5px solid #cb8734;
+        }
+        &-link-text {
+          font-family: "Gilroy";
+          font-style: normal;
+          font-weight: 500;
+          font-size: 15px;
+          line-height: 16px;
+          color: #cb8734;
+        }
+        &-title {
+          font-style: normal;
+          font-weight: 400;
+          font-size: 30px;
+          line-height: 30px;
+          color: #2b2a28;
+        }
+        &-subtitle {
+          font-style: normal;
+          font-weight: 300;
+          font-size: 15px;
+          line-height: 28px;
+          color: #2b2a28;
         }
       }
     }
