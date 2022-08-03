@@ -123,6 +123,45 @@
   color: #2b2a28;
 }
 
+.section-hero__flex-left-page {
+  margin-top: 120px;
+}
+.section-hero__flex-left-page-title {
+  font-family: "Gilroy";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 38px;
+  line-height: 50px;
+  color: #2b2a28;
+}
+.section-hero__flex-left-page-subtitle {
+  max-width: 502px;
+  font-family: "Gilroy";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 30px;
+  color: #2b2a28;
+}
+.section-hero__flex-left-page-catalog-circle {
+  cursor: pointer;
+  width: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  height: 30px;
+  border: 1.5px solid #cb8734;
+}
+.section-hero__flex-left-page-catalog-text {
+  font-family: "Gilroy";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 16px;
+  color: #cb8734;
+}
+
 /*!
  * Bootstrap  v5.2.0 (https://getbootstrap.com/)
  * Copyright 2011-2022 The Bootstrap Authors
@@ -11046,6 +11085,21 @@ textarea.form-control-lg {
     display: none !important;
   }
 }
+.section-hero__flex-left-page-block-btn {
+  display: inline-block;
+  padding: 26px 45px 20px 45px;
+  font-family: "Gilroy";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 16px;
+  color: #ffffff;
+  background: linear-gradient(180deg, #f39c32 0%, #cb8734 100%);
+  box-shadow: 0px 4px 4px rgba(203, 135, 52, 0.2);
+  border-radius: 4px;
+  text-decoration: none;
+}
+
 * {
   margin: 0;
   padding: 0;

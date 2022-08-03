@@ -1,0 +1,49 @@
+.section-hero {
+  &__flex {
+    &-left-page {
+      margin-top: 120px;
+      &-title {
+        font-family: "Gilroy";
+        font-style: normal;
+        font-weight: 800;
+        font-size: 38px;
+        line-height: 50px;
+        color: #2b2a28;
+      }
+      &-subtitle {
+        max-width: 502px;
+        font-family: "Gilroy";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 30px;
+        color: #2b2a28;
+      }
+      &-block {
+        &-btn {
+          @extend %btn;
+        }
+      }
+      &-catalog {
+        &-circle {
+          cursor: pointer;
+          width: 30px;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          border-radius: 50%;
+          height: 30px;
+          border: 1.5px solid #cb8734;
+        }
+        &-text {
+          font-family: "Gilroy";
+          font-style: normal;
+          font-weight: 600;
+          font-size: 16px;
+          line-height: 16px;
+          color: #cb8734;
+        }
+      }
+    }
+  }
+}
