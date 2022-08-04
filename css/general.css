@@ -273,13 +273,170 @@
 .section-production {
   background: #fffbf7;
   margin-top: 145px;
+  padding-bottom: 145px;
 }
 .section-production__flex {
   margin-top: 145px;
+  max-width: 1170px;
 }
 .section-production__flex-item {
+  min-height: 384px;
+  position: relative;
+  padding: 42px 39px 50px 46px;
   background: #ffffff;
   border-radius: 8px;
+}
+.section-production__flex-item-img-numbers {
+  position: absolute;
+  right: 10px;
+  bottom: 30px;
+}
+.section-production__flex-item > img {
+  position: absolute;
+}
+.section-production__flex-item-img-1 {
+  top: -60px;
+  right: -5px;
+}
+.section-production__flex-item-img-2 {
+  top: -60px;
+  right: 10px;
+}
+.section-production__flex-item-img-3 {
+  top: -15px;
+  right: 25px;
+}
+.section-production__flex-item-img-4 {
+  top: -55px;
+  right: 10px;
+}
+.section-production__flex-item-title {
+  max-width: 372px;
+  font-family: "Gilroy";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 30px;
+  line-height: 36px;
+  color: #2b2a28;
+}
+.section-production__flex-item-subtitle {
+  margin-top: 25px;
+  max-width: 485px;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 15px;
+  line-height: 30px;
+  color: #2b2a28;
+}
+.section-production__flex-title {
+  max-width: 392px;
+  margin-bottom: 58px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 48px;
+  color: #2b2a28;
+}
+.section-production__flex-banner-content-link-circle {
+  cursor: pointer;
+  width: 30px;
+  border-radius: 50%;
+  height: 30px;
+  border: 1.5px solid #cb8734;
+}
+
+.section-our-company {
+  padding-bottom: 147px;
+  background-image: url(../assets/map-1.png), url(../assets/map-2.png);
+  background-position: right top, left bottom;
+  background-size: 33%;
+  background-repeat: no-repeat;
+}
+.section-our-company__info-page {
+  margin-top: 145px;
+  position: relative;
+}
+.section-our-company__info-page-director {
+  position: relative;
+  min-height: 420px;
+  background-repeat: no-repeat;
+  background-image: url(../assets/fon-director.png);
+}
+.section-our-company__info-page-director-info-flex {
+  max-width: 570px;
+  position: relative;
+  left: 50%;
+  transform: translate(-50%);
+  top: 324px;
+  padding: 38px 51px 35px 43px;
+  background: #ffffff;
+  box-shadow: 0px 0px 30px rgba(43, 42, 40, 0.08);
+  border-radius: 8px;
+}
+.section-our-company__info-page-director-info-flex-block-title {
+  max-width: 400px;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 26px;
+  color: #2b2a28;
+}
+.section-our-company__info-page-director-info-flex-block-text {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 30px;
+  color: #2b2a28;
+}
+.section-our-company__info-page-title {
+  margin-bottom: 67px;
+  font-family: "Gilroy";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 48px;
+  color: #2b2a28;
+}
+.section-our-company__info-page-play {
+  max-width: 140px;
+  left: 58%;
+  top: 160px;
+  z-index: 20;
+  position: absolute;
+}
+.section-our-company__info-page-play-link {
+  text-decoration: none;
+  font-family: "Gilroy";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 13px;
+  line-height: 18px;
+  color: #ffffff;
+}
+.section-our-company__info-page-director-img {
+  position: absolute;
+  top: -75px;
+  left: 50%;
+  transform: translate(-50%);
+}
+.section-our-company__flex-page {
+  margin-top: 195px;
+}
+.section-our-company__flex-page-items-block-title {
+  padding-bottom: 29px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 60px;
+  line-height: 30px;
+  color: #cb8734;
+  border-bottom: 3px solid #CB8734;
+}
+.section-our-company__flex-page-items-block-subtitle {
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 30px;
+  color: #2b2a28;
 }
 
 /*!
@@ -11205,7 +11362,7 @@ textarea.form-control-lg {
     display: none !important;
   }
 }
-.section-hero__flex-left-page-block-btn {
+.section-hero__flex-left-page-block-btn, .section-production__flex-banner-content-btn, .section-our-company__flex-page-btn {
   display: inline-block;
   padding: 26px 45px 20px 45px;
   font-family: "Gilroy";
