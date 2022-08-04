@@ -3,6 +3,11 @@
   font-family: "Gilroy";
   src: url(../fonts/Gilroy-ExtraBold.otf), url(../fonts/Gilroy-Light.otf);
 }
+.header {
+  background: #fffbf7;
+  min-height: 970px;
+}
+
 .navigation__text {
   max-width: 255px;
   margin-left: 30px;
@@ -51,9 +56,6 @@
   letter-spacing: 0.08em;
   color: #2b2a28;
 }
-.navigation__order {
-  margin-left: 27px;
-}
 .navigation__order-btn {
   display: block;
   padding: 16px 25px 12px 25px;
@@ -71,7 +73,6 @@
 }
 .navigation__order-text {
   text-decoration: none;
-  margin-left: 8px;
   font-family: "Gilroy";
   font-style: normal;
   font-weight: 400;
@@ -173,7 +174,7 @@
 
 .section-services {
   position: relative;
-  margin-top: 74px;
+  margin-top: -219px;
 }
 .section-services__flex {
   background: #ffffff;
@@ -223,9 +224,10 @@
   background-size: contain;
   background-repeat: no-repeat;
   background-position-x: 270px;
+  background-position-y: 190px;
 }
 .section-projects__flex {
-  margin-top: 343px;
+  margin-top: 145px;
 }
 .section-projects__flex-card-group {
   max-width: 780px;
@@ -266,6 +268,18 @@
   font-size: 15px;
   line-height: 28px;
   color: #2b2a28;
+}
+
+.section-production {
+  background: #fffbf7;
+  margin-top: 145px;
+}
+.section-production__flex {
+  margin-top: 145px;
+}
+.section-production__flex-item {
+  background: #ffffff;
+  border-radius: 8px;
 }
 
 /*!
@@ -11211,4 +11225,10 @@ textarea.form-control-lg {
   padding: 0;
   box-sizing: border-box;
   vertical-align: baseline;
+}
+
+.container {
+  padding-top: 40px;
+  padding-left: 20px;
+  padding-right: 20px;
 }/*# sourceMappingURL=general.css.map */

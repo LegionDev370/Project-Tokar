@@ -60,7 +60,7 @@
 }
 .section-services {
   position: relative;
-  margin-top: 74px;
+  margin-top: -219px;
   &__flex {
     background: #ffffff;
     box-shadow: 0px 0px 30px rgba(43, 42, 40, 0.08);
@@ -111,8 +111,9 @@
   background-size: contain;
   background-repeat: no-repeat;
   background-position-x: 270px;
+  background-position-y: 190px;
   &__flex {
-    margin-top: 343px;
+    margin-top: 145px;
     &-card-group {
       max-width: 780px;
       &-active {
@@ -152,6 +153,17 @@
           color: #2b2a28;
         }
       }
+    }
+  }
+}
+.section-production {
+  background: #fffbf7;
+  margin-top: 145px;
+  &__flex {
+    margin-top: 145px;
+    &-item {
+      background: #ffffff;
+      border-radius: 8px;
     }
   }
 }

@@ -1,3 +1,7 @@
+.header {
+  background: #fffbf7;
+  min-height: 970px;
+}
 .navigation {
   &__text {
     max-width: 255px;
@@ -50,7 +54,6 @@
     }
   }
   &__order {
-    margin-left: 27px;
     &-btn {
       display: block;
       padding: 16px 25px 12px 25px;
@@ -68,7 +71,6 @@
     }
     &-text {
       text-decoration: none;
-      margin-left: 8px;
       font-family: "Gilroy";
       font-style: normal;
       font-weight: 400;
