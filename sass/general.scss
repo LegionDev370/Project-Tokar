@@ -1,6 +1,6 @@
 @import "./_fonts";
-@import "./_footer";
 @import "./_header";
+@import './_footer';
 @import "./_main";
 @import './_variables';
 * {
@@ -8,6 +8,7 @@
   padding: 0;
   box-sizing: border-box;
   vertical-align: baseline;
+  font-family: sans-serif;
 }
 .container{
   padding-top: 40px;
