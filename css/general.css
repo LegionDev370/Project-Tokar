@@ -429,12 +429,51 @@
   font-size: 60px;
   line-height: 30px;
   color: #cb8734;
-  border-bottom: 3px solid #CB8734;
+  border-bottom: 3px solid #cb8734;
 }
 .section-our-company__flex-page-items-block-subtitle {
   font-style: normal;
   font-weight: 300;
   font-size: 16px;
+  line-height: 30px;
+  color: #2b2a28;
+}
+
+.section-clever-houses {
+  padding-bottom: 145px;
+  background: #fffbf7;
+}
+.section-clever-houses__flex {
+  margin-top: 145px;
+}
+.section-clever-houses__flex-h2 {
+  max-width: 467px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 48px;
+  color: #2b2a28;
+}
+.section-clever-houses__flex-content-items-card-active {
+  background: #ffffff;
+  box-shadow: 0px 0px 30px rgba(43, 42, 40, 0.08);
+  border-radius: 0px 40px 0px 0px !important;
+}
+.section-clever-houses__flex-content-items-texts > p {
+  font-style: normal;
+  font-weight: 300;
+  font-size: 15px;
+  line-height: 22px;
+  color: #2b2a28;
+}
+.section-clever-houses__flex-content-items-texts > p::before {
+  content: url(../assets/vector-texts.svg);
+  padding-right: 15px;
+}
+.section-clever-houses__flex-content-items-title {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 30px;
   line-height: 30px;
   color: #2b2a28;
 }

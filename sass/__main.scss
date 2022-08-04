@@ -237,8 +237,7 @@
 }
 .section-our-company {
   padding-bottom: 147px;
-  background-image: url(../assets/map-1.png),
-  url(../assets/map-2.png);
+  background-image: url(../assets/map-1.png), url(../assets/map-2.png);
   background-position: right top, left bottom;
   background-size: 33%;
   background-repeat: no-repeat;
@@ -313,7 +312,7 @@
   }
   &__flex-page {
     margin-top: 195px;
-    &-btn{
+    &-btn {
       @extend %btn;
     }
     &-items {
@@ -325,12 +324,56 @@
           font-size: 60px;
           line-height: 30px;
           color: #cb8734;
-          border-bottom: 3px solid #CB8734;
+          border-bottom: 3px solid #cb8734;
         }
         &-subtitle {
           font-style: normal;
           font-weight: 300;
           font-size: 16px;
+          line-height: 30px;
+          color: #2b2a28;
+        }
+      }
+    }
+  }
+}
+.section-clever-houses {
+  padding-bottom: 145px;
+  background: #fffbf7;
+  &__flex {
+    margin-top: 145px;
+    &-h2 {
+      max-width: 467px;
+      font-style: normal;
+      font-weight: 700;
+      font-size: 36px;
+      line-height: 48px;
+      color: #2b2a28;
+    }
+    &-content {
+      &-items {
+        &-card-active {
+          background: #ffffff;
+          box-shadow: 0px 0px 30px rgba(43, 42, 40, 0.08);
+          border-radius: 0px 40px 0px 0px !important;
+        }
+        &-texts {
+          & > p {
+            font-style: normal;
+            font-weight: 300;
+            font-size: 15px;
+            line-height: 22px;
+            color: #2b2a28;
+            &::before {
+              content: url(../assets/vector-texts.svg);
+              padding-right: 15px;
+            }
+          }
+        }
+        &-title {
+          font-style: normal;
+          font-weight: 400;
+          font-size: 30px;
           line-height: 30px;
           color: #2b2a28;
         }
