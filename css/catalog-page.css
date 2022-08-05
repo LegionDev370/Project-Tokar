@@ -1,0 +1,172 @@
+.header {
+  background: #fffbf7;
+  min-height: 220px;
+  padding-bottom: 37px;
+}
+
+.navigation__text {
+  max-width: 255px;
+  margin-left: 30px;
+  margin-bottom: 0;
+  font-family: "Gilroy";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 18px;
+  letter-spacing: 0.08em;
+  color: #2b2a28;
+}
+.navigation__social-links-text {
+  display: inline-block;
+  margin-bottom: 5px;
+  text-decoration: none;
+  font-family: "Gilroy";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 18px;
+  letter-spacing: 0.08em;
+  color: #2b2a28;
+}
+.navigation__phone-number {
+  margin-left: 40px;
+}
+.navigation__phone-number-text:nth-child(1) {
+  display: block;
+  text-decoration: none;
+  font-family: "Gilroy";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 16px;
+  text-align: right;
+  color: #2b2a28;
+}
+.navigation__phone-number-text:nth-child(2) {
+  text-decoration: none;
+  font-family: "Gilroy";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 18px;
+  letter-spacing: 0.08em;
+  color: #2b2a28;
+}
+.navigation__order-btn {
+  display: block;
+  padding: 16px 25px 12px 25px;
+  background: linear-gradient(180deg, #f39c32 0%, #cb8734 100%);
+  box-shadow: 0px 4px 4px rgba(203, 135, 52, 0.2);
+  border-radius: 4px;
+  font-family: "Gilroy";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 13px;
+  line-height: 16px;
+  text-align: center;
+  color: #ffffff;
+  text-decoration: none;
+}
+.navigation__order-text {
+  text-decoration: none;
+  font-family: "Gilroy";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 11px;
+  line-height: 18px;
+  letter-spacing: 0.08em;
+  color: #2b2a28;
+}
+.navigation__language {
+  margin-left: 25px;
+  margin-bottom: 20px;
+}
+.navigation__language img {
+  vertical-align: middle;
+  padding-left: 6px;
+}
+
+.nav-menu__info-list {
+  max-width: 620px;
+  background: #3d1e19;
+  box-shadow: 0px 0px 20px rgba(43, 42, 40, 0.2);
+  border-radius: 8px;
+}
+.nav-menu__info-list-item {
+  padding: 25px 60px 25px 60px;
+  border-right: 1px dashed #e5ebf2;
+}
+.nav-menu__info-list-item > a {
+  text-decoration: none;
+  font-family: "Gilroy";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 146.19%;
+  letter-spacing: 0.08em;
+  color: #ffffff;
+}
+.nav-menu__nav-list-item > a {
+  text-decoration: none;
+  font-family: "Gilroy";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 146.19%;
+  letter-spacing: 0.08em;
+  color: #2b2a28;
+}
+
+.section-catalog-houses__link {
+  display: block;
+  text-decoration: none;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 17px;
+  color: #828282;
+}
+.section-catalog-houses__page-search-h2 {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 58px;
+  color: #2b2a28;
+}
+.section-catalog-houses__page-search-input-data {
+  position: relative;
+  width: 472px;
+  padding-bottom: 14px;
+  border-bottom: 1px solid #828282;
+}
+.section-catalog-houses__page-search-input-data-btn {
+  position: absolute;
+  border: none;
+  background: none;
+  left: 0;
+}
+.section-catalog-houses__page-search-input-data-input {
+  width: 100%;
+  padding: 6px 123px 6px 48px;
+  border: none;
+  outline: none;
+  margin-left: 15px;
+}
+
+@font-face {
+  font-family: "Gilroy";
+  src: url(../fonts/Gilroy-ExtraBold.otf), url(../fonts/Gilroy-Light.otf);
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  vertical-align: baseline;
+  font-family: sans-serif;
+}
+
+.container {
+  padding-top: 40px;
+  padding-left: 20px;
+  padding-right: 20px;
+}/*# sourceMappingURL=catalog-page.css.map */

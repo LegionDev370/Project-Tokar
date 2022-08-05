@@ -1,0 +1,39 @@
+.section-catalog-houses {
+  &__link {
+    display: block;
+    text-decoration: none;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 17px;
+    color: #828282;
+  }
+  &__page-search {
+    &-h2 {
+      font-style: normal;
+      font-weight: 700;
+      font-size: 36px;
+      line-height: 58px;
+      color: #2b2a28;
+    }
+    &-input-data{
+      position: relative;
+      width: 472px;
+      padding-bottom: 14px;
+      border-bottom: 1px solid #828282;
+      &-btn{
+        position: absolute;
+        border: none;
+        background: none;
+        left: 0;
+      }
+      &-input{
+        width: 100%;
+        padding: 6px 123px 6px 48px;
+        border: none;
+        outline: none;
+        margin-left: 15px;
+      }
+    }
+  }
+}
