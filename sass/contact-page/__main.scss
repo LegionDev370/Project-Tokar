@@ -1,0 +1,184 @@
+.section-contacts__information {
+  padding-bottom: 145px;
+  &-header {
+    &-title {
+      text-decoration: none;
+      font-style: normal;
+      font-weight: 400;
+      font-size: 12px;
+      line-height: 17px;
+      color: #828282;
+    }
+  }
+  &-contact {
+    &-title {
+      font-style: normal;
+      font-weight: 700;
+      font-size: 36px;
+      line-height: 58px;
+      color: #2b2a28;
+      text-decoration: none;
+    }
+    &-link {
+      &-title {
+        font-style: normal;
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 16px;
+        color: #cb8734;
+        text-decoration: none;
+      }
+    }
+  }
+}
+.section-contacts__info-wrapper {
+  &-left {
+    &-title {
+      font-style: normal;
+      font-weight: 400;
+      font-size: 30px;
+      line-height: 45px;
+      color: #2b2a28;
+      text-decoration: none;
+    }
+    &-phones {
+      &-phone-item {
+        position: relative;
+        background: #ffffff;
+        box-shadow: 0px 0px 30px rgba(43, 42, 40, 0.08);
+        border-radius: 0px 40px 0px 0px;
+        &-block {
+          &-title {
+            font-style: normal;
+            font-weight: 300;
+            font-size: 16px;
+            line-height: 22px;
+            color: #2b2a28;
+          }
+          &-subtitle {
+            font-style: normal;
+            font-weight: 700;
+            font-size: 16px;
+            line-height: 22px;
+            color: #2b2a28;
+          }
+          &-img {
+            position: absolute;
+            right: 44px;
+            top: 62px;
+          }
+        }
+        &-link {
+          font-style: normal;
+          font-weight: 600;
+          font-size: 16px;
+          line-height: 16px;
+          color: #cb8734;
+          border-bottom: 1px dashed #cb8734;
+          text-decoration: none;
+        }
+        &-active {
+          &-title {
+            font-style: normal;
+            font-weight: 400;
+            font-size: 24px;
+            line-height: 36px;
+            color: #2b2a28;
+          }
+          &-subtitle {
+            font-style: normal;
+            font-weight: 700;
+            font-size: 18px;
+            line-height: 22px;
+            color: #2b2a28;
+          }
+          &-link {
+            text-decoration: none;
+            font-style: normal;
+            font-weight: 600;
+            font-size: 16px;
+            line-height: 16px;
+            color: #cb8734;
+            border-bottom: 1px dashed #cb8734;
+          }
+        }
+      }
+    }
+  }
+  &-right {
+    &-input {
+      background: #ffffff;
+      box-shadow: 0px 0px 30px rgba(43, 42, 40, 0.08);
+      border-radius: 0px 40px 0px 0px;
+      &-link {
+        text-decoration: none;
+        font-style: normal;
+        font-weight: 300;
+        font-size: 14px;
+        line-height: 24px;
+        color: #2b2a28;
+        & > span {
+          color: #cb8734;
+        }
+      }
+      &-block {
+        margin-left: auto;
+        margin-right: auto;
+        padding-top: 59px;
+        padding-bottom: 49px;
+        &-title {
+          width: 379px;
+          font-style: normal;
+          font-weight: 400;
+          font-size: 30px;
+          line-height: 38px;
+          color: #2b2a28;
+        }
+        &-input-data {
+          position: relative;
+          & > input {
+            width: 100%;
+            padding: 22px 0 19px 81px;
+            display: block;
+            outline: none;
+            background: #ffffff;
+            border: 1px solid #e7d8c7;
+            border-radius: 4px;
+          }
+          &-user {
+            position: absolute;
+            top: 19px;
+            left: 23px;
+          }
+          &-select {
+            &-dropdown {
+              position: absolute;
+              bottom: 113px;
+              left: 21px;
+              &-label {
+                cursor: pointer;
+                & > input {
+                  display: none;
+                }
+              }
+            }
+          }
+          &-btn {
+            width: 100%;
+            padding: 26px 0 20px 0;
+            font-style: normal;
+            font-weight: 700;
+            display: block;
+            font-size: 16px;
+            line-height: 16px;
+            color: #ffffff;
+            background: linear-gradient(180deg, #f39c32 0%, #cb8734 100%);
+            box-shadow: 0px 4px 4px rgba(203, 135, 52, 0.2);
+            border-radius: 4px;
+            border: none;
+          }
+        }
+      }
+    }
+  }
+}

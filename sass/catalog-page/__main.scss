@@ -1,4 +1,5 @@
 .section-catalog-houses {
+  padding-bottom: 145px;
   &__link {
     display: block;
     text-decoration: none;
@@ -16,24 +17,191 @@
       line-height: 58px;
       color: #2b2a28;
     }
-    &-input-data{
+    &-input-data {
       position: relative;
       width: 472px;
       padding-bottom: 14px;
       border-bottom: 1px solid #828282;
-      &-btn{
+      &-btn {
         position: absolute;
         border: none;
         background: none;
-        left: 0;
+        left: 20px;
       }
-      &-input{
+      &-input {
         width: 100%;
         padding: 6px 123px 6px 48px;
         border: none;
         outline: none;
         margin-left: 15px;
       }
+    }
+  }
+  &__catalogs {
+    &-accordion-active {
+      background: #ffffff;
+      box-shadow: 0px 0px 30px rgba(43, 42, 40, 0.08);
+      border-radius: 8px;
+      &-title {
+        font-style: normal;
+        font-weight: 700;
+        font-size: 15px;
+        line-height: 16px;
+        color: #2b2a28;
+      }
+    }
+    &-lists {
+      list-style: none;
+      padding-left: 0;
+      &-item {
+        margin-bottom: 10px;
+        & > a {
+          font-style: normal;
+          font-weight: 300;
+          font-size: 15px;
+          line-height: 22px;
+          text-decoration: none;
+          color: #2b2a28;
+          &:hover{
+            color: #CB8734;
+          }
+          & > img {
+            padding-right: 15px;
+            vertical-align: middle;
+          }
+        }
+      }
+    }
+    &-progress {
+      width: 100%;
+      display: flex;
+      justify-content: space-between;
+      & > span {
+        font-style: normal;
+        font-weight: 300;
+        font-size: 14px;
+        line-height: 22px;
+        color: #2b2a28;
+        &:nth-child(2) {
+          color: #2b2a28;
+          font-weight: bold;
+        }
+      }
+    }
+  }
+  &__card-groups {
+    overflow: hidden;
+    &-item {
+      min-height: 397px;
+      padding: 0.3rem;
+      background: #ffffff;
+      box-shadow: 0px 0px 30px rgba(43, 42, 40, 0.08);
+      border-radius: 0px 40px 0px 0px !important;
+      border: none !important;
+      transition: .5s ease;
+      &:hover{
+        transform: scale(1.1);
+        cursor: pointer;
+        position: absolute;
+        z-index: 200;
+      }
+      &:hover &-btn-group{
+        width: 100%;
+        flex-direction: column-reverse;  
+        transition: width .5s ease;
+      }
+      &-area {
+        &-txt {
+          font-style: normal;
+          margin: 0;
+          font-weight: 300;
+          font-size: 14px;
+          line-height: 24px;
+          letter-spacing: 0.1em;
+          color: #2b2a28;
+        }
+      }
+      &-btn-group {
+        transition: width .5s ease;
+        &-btn {
+          padding: 15px 15px 13px 18px;
+          font-style: normal;
+          border: none;
+          font-weight: 600;
+          font-size: 12px;
+          line-height: 16px;
+          text-align: center;
+          color: #ffffff;
+          background: linear-gradient(180deg, #f39c32 0%, #cb8734 100%);
+          box-shadow: 0px 4px 4px rgba(203, 135, 52, 0.2);
+          border-radius: 4px;
+        }
+        &-btn-active {
+          padding: 15px 15px 13px 18px;
+          font-style: normal;
+          font-weight: 700;
+          font-size: 13px;
+          line-height: 16px;
+          text-align: center;
+          color: #2b2a28;
+          background: #fffbf7;
+          border-radius: 4px;
+        }
+      }
+    }
+  }
+  &__flex {
+    background: #ffffff;
+    box-shadow: 0px 0px 30px rgba(43, 42, 40, 0.08);
+    border-radius: 0px 40px 0px 0px;
+    padding: 0.3rem;
+    &-left {
+      width: 396px;
+      &-block {
+        width: 100%;
+        padding-top: 58px;
+        margin-left: 54px;
+        &-title {
+          font-style: normal;
+          font-weight: 400;
+          font-size: 30px;
+          line-height: 30px;
+          color: #2b2a28;
+        }
+        &-subtitle {
+          width: 316px;
+          font-style: normal;
+          font-weight: 300;
+          font-size: 15px;
+          line-height: 28px;
+          color: #2b2a28;
+        }
+        &-btn {
+          @extend %btn;
+        }
+      }
+    }
+    &-right {
+      & > img {
+        object-fit: cover;
+      }
+    }
+  }
+  &__link-end {
+    display: block;
+    padding: 18px;
+    text-decoration: none;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    color: #2b2a28;
+    background: #fffbf7;
+    border-radius: 8px;
+
+    & > img {
+      vertical-align: middle;
+      padding-right: 12px;
     }
   }
 }
