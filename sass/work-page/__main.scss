@@ -184,3 +184,136 @@
     }
   }
 }
+.section-foundation {
+  &__page {
+    &-title {
+      font-style: normal;
+      font-weight: 700;
+      font-size: 36px;
+      line-height: 58px;
+      color: #2b2a28;
+    }
+    &-img > img {
+      width: 100%;
+      object-fit: contain;
+    }
+  }
+}
+.section-style {
+  &__page {
+    &-title {
+      font-style: normal;
+      font-weight: 700;
+      font-size: 36px;
+      line-height: 58px;
+      color: #2b2a28;
+    }
+    &-img > img {
+      width: 100%;
+      object-fit: contain;
+    }
+  }
+}
+.section-windows {
+  margin-top: 145px;
+  &__page {
+    &-title {
+      font-style: normal;
+      font-weight: 700;
+      font-size: 36px;
+      line-height: 58px;
+      color: #2b2a28;
+    }
+    &-img-left > img {
+      width: 100%;
+    }
+  }
+}
+.section-decoration {
+  margin-top: 145px;
+  &__page {
+    &-title {
+      font-style: normal;
+      font-weight: 700;
+      font-size: 36px;
+      line-height: 58px;
+      color: #2b2a28;
+    }
+    &-img-left > img {
+      width: 100%;
+      object-fit: contain;
+    }
+  }
+}
+.section-forms {
+  margin-top: 145px;
+  margin-bottom: 145px;
+  &__flex {
+    background: #fffbf7;
+    border-radius: 0px 40px 0px 0px;
+    &-left {
+      &-contents {
+        max-width: 35.68rem;
+        padding-top: 59px;
+        margin-left: auto;
+        margin-right: auto;
+      }
+      &-title {
+        font-style: normal;
+        font-weight: 400;
+        font-size: 30px;
+        line-height: 38px;
+        color: #2b2a28;
+        text-decoration: none;
+      }
+      &-input-data {
+        position: relative;
+        & > input {
+          width: 100%;
+          outline: none;
+          padding-left: 81px;
+          min-height: 58px;
+          max-width: 390px;
+          background: #ffffff;
+          border: 1px solid #e7d8c7;
+          border-radius: 4px;
+        }
+        &-language {
+          height: 100%;
+          position: absolute;
+          left: 21px;
+        }
+      }
+      &-btn {
+        max-width: 200px;
+        width: 100%;
+        min-height: 58px;
+        display: inline-block;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 16px;
+        color: #ffffff;
+        background: linear-gradient(180deg, #f39c32 0%, #cb8734 100%);
+        box-shadow: 0px 4px 4px rgba(203, 135, 52, 0.2);
+        border-radius: 4px;
+      }
+      &-link {
+        font-style: normal;
+        font-weight: 300;
+        font-size: 14px;
+        line-height: 14px;
+        color: #2b2a28;
+        text-decoration: none;
+        & > span {
+          color: #cb8734;
+        }
+      }
+    }
+    &-right {
+      &-img > img {
+        border-radius: 0px 36px;
+      }
+    }
+  }
+}

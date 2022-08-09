@@ -287,6 +287,131 @@
   vertical-align: middle;
 }
 
+.section-foundation__page-title {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 58px;
+  color: #2b2a28;
+}
+.section-foundation__page-img > img {
+  width: 100%;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+
+.section-style__page-title {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 58px;
+  color: #2b2a28;
+}
+.section-style__page-img > img {
+  width: 100%;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+
+.section-windows {
+  margin-top: 145px;
+}
+.section-windows__page-title {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 58px;
+  color: #2b2a28;
+}
+.section-windows__page-img-left > img {
+  width: 100%;
+}
+
+.section-decoration {
+  margin-top: 145px;
+}
+.section-decoration__page-title {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 58px;
+  color: #2b2a28;
+}
+.section-decoration__page-img-left > img {
+  width: 100%;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+
+.section-forms {
+  margin-top: 145px;
+  margin-bottom: 145px;
+}
+.section-forms__flex {
+  background: #fffbf7;
+  border-radius: 0px 40px 0px 0px;
+}
+.section-forms__flex-left-contents {
+  max-width: 35.68rem;
+  padding-top: 59px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.section-forms__flex-left-title {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 38px;
+  color: #2b2a28;
+  text-decoration: none;
+}
+.section-forms__flex-left-input-data {
+  position: relative;
+}
+.section-forms__flex-left-input-data > input {
+  width: 100%;
+  outline: none;
+  padding-left: 81px;
+  min-height: 58px;
+  max-width: 390px;
+  background: #ffffff;
+  border: 1px solid #e7d8c7;
+  border-radius: 4px;
+}
+.section-forms__flex-left-input-data-language {
+  height: 100%;
+  position: absolute;
+  left: 21px;
+}
+.section-forms__flex-left-btn {
+  max-width: 200px;
+  width: 100%;
+  min-height: 58px;
+  display: inline-block;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 16px;
+  color: #ffffff;
+  background: linear-gradient(180deg, #f39c32 0%, #cb8734 100%);
+  box-shadow: 0px 4px 4px rgba(203, 135, 52, 0.2);
+  border-radius: 4px;
+}
+.section-forms__flex-left-link {
+  font-style: normal;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 14px;
+  color: #2b2a28;
+  text-decoration: none;
+}
+.section-forms__flex-left-link > span {
+  color: #cb8734;
+}
+.section-forms__flex-right-img > img {
+  border-radius: 0px 36px;
+}
+
 .section-Barcelona__header-info-payment-link {
   display: inline-block;
   padding: 26px 45px 20px 45px;
