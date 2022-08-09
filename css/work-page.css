@@ -2,6 +2,113 @@
   font-family: "Gilroy";
   src: url(../fonts/Gilroy-ExtraBold.otf), url(../fonts/Gilroy-Light.otf);
 }
+.footer {
+  background: #fffbf7;
+}
+
+.footer-end-title {
+  font-style: normal;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  border-top: 1px solid #E7D8C7;
+  margin: 0;
+  font-weight: 300;
+  font-size: 13px;
+  line-height: 22px;
+  text-align: center;
+  color: #2b2a28;
+  opacity: 0.7;
+}
+
+.footer-section {
+  margin-top: 49px;
+}
+.footer-section__info-list {
+  margin: 0;
+  max-width: 620px;
+  background: #3d1e19;
+  box-shadow: 0px 0px 20px rgba(43, 42, 40, 0.2);
+  border-radius: 8px;
+}
+.footer-section__info-list-item {
+  padding: 25px 60px 25px 60px;
+  border-right: 1px dashed #e5ebf2;
+}
+.footer-section__info-list-item > a {
+  text-decoration: none;
+  font-family: "Gilroy";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 146.19%;
+  letter-spacing: 0.08em;
+  color: #ffffff;
+}
+.footer-section__nav-list {
+  margin: 0;
+}
+.footer-section__nav-list-item > a {
+  text-decoration: none;
+  font-family: "Gilroy";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 146.19%;
+  letter-spacing: 0.08em;
+  color: #2b2a28;
+}
+.footer-info__flex-list-info {
+  list-style: none;
+  padding: 0;
+  margin-right: 54px;
+}
+.footer-info__flex-list-info-item {
+  margin-bottom: 10px;
+}
+.footer-info__flex-list-info-item > a {
+  text-decoration: none;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 22px;
+  color: #2b2a28;
+}
+.footer-info__flex-logo-page {
+  margin-left: 60px;
+}
+.footer-info__flex-social-links-target {
+  text-decoration: none;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 18px;
+  letter-spacing: 0.08em;
+  color: #2b2a28;
+}
+.footer-info__flex-social-links-icons {
+  margin-top: 10px;
+}
+.footer-info__flex-phone-number-text-1 {
+  display: block;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 16px;
+  text-align: right;
+  color: #2b2a28;
+  text-decoration: none;
+}
+.footer-info__flex-phone-number-text-2 {
+  display: block;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 18px;
+  letter-spacing: 0.08em;
+  color: #2b2a28;
+  text-decoration: none;
+}
+
 .header {
   background: #fffbf7;
   min-height: 220px;
@@ -412,6 +519,56 @@
   border-radius: 0px 36px;
 }
 
+.section-working {
+  margin-bottom: 145px;
+}
+.section-working__worked-page-title {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 58px;
+  color: #2b2a28;
+}
+.section-working__worked-page-paragraph {
+  padding: 20px 0 20px 15px;
+  background: #cb8734;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 30px;
+  color: #ffffff;
+  -webkit-clip-path: polygon(0% 0%, 90% 0, 100% 50%, 90% 100%, 0% 100%);
+          clip-path: polygon(0% 0%, 90% 0, 100% 50%, 90% 100%, 0% 100%);
+}
+.section-working__worked-page-text {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  color: #2b2a28;
+}
+.section-working__worked-page-item {
+  background: #ffffff;
+  min-height: 240px;
+  box-shadow: 0px 0px 30px rgba(43, 42, 40, 0.08);
+  border-radius: 0px 40px 0px 0px;
+}
+.section-working__worked-page-item-block {
+  padding-top: 28px;
+  margin-left: 28px;
+}
+.section-working__worked-page-item-block-title {
+  max-width: 191px;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 30px;
+  color: #2b2a28;
+}
+.section-working__worked-page-item-block-title-active {
+  max-width: 210px;
+}
+
 .section-Barcelona__header-info-payment-link {
   display: inline-block;
   padding: 26px 45px 20px 45px;
@@ -420,6 +577,21 @@
   font-weight: 700;
   font-size: 16px;
   line-height: 16px;
+  color: #ffffff;
+  background: linear-gradient(180deg, #f39c32 0%, #cb8734 100%);
+  box-shadow: 0px 4px 4px rgba(203, 135, 52, 0.2);
+  border-radius: 4px;
+  text-decoration: none;
+}
+
+.footer-section__link {
+  display: inline-block;
+  padding: 16px 25px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 13px;
+  line-height: 16px;
+  text-align: center;
   color: #ffffff;
   background: linear-gradient(180deg, #f39c32 0%, #cb8734 100%);
   box-shadow: 0px 4px 4px rgba(203, 135, 52, 0.2);
